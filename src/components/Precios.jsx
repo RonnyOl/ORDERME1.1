@@ -6,7 +6,7 @@ export default function Precios() {
     return (
         <>
             <HeaderPrecios/>
-            <section className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-12 m-auto">
+            <section id="Precio" className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-12 m-auto">
                 <div className="card-info-div grid grid-cols-1 gap-4 sm:grid-cols-1 sm:items-stretch md:grid-cols-2 md:gap-8">
                     
                 <div className="card-info-fiv_hijo divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm">
@@ -50,7 +50,7 @@ export default function Precios() {
                         <div className="card-price p-6 sm:px-8">
                             <div>
                             <h3>Por terminal</h3>
-                            <h4>$20.000  <span>x mes</span></h4>
+                            <h4>$50.000  <span>x mes</span></h4>
                             
                             </div>
                             <p className="price-bug ">Accedé a las herramientas de gestión que te permitirán profesionalizar tu negocio al precio más bajo del mercado. El pago se debe efectuar una vez por mes al finalizar el primer mes de prueba. (No incluye IVA)</p>
